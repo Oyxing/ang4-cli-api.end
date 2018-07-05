@@ -1,7 +1,7 @@
-## 服务启动 
+## 鏈嶅姟鍚姩 
 	
 		$ bee run 
 
-## 内容
+## 鍐呭
 
- beego 写的 api 调用 
+ beego 鍐欑殑 api 璋冪敤 
