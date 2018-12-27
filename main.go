@@ -1,18 +1,16 @@
 package main
 
 import (
-	_ "hello/routers"  //  引入路由表
-	"github.com/astaxie/beego"
 	"hello/models"
+	_ "hello/routers" //  引入路由表
+
+	"github.com/astaxie/beego"
 )
 
-func init(){
+func init() {
 	models.RegisterDB()
 }
 
 func main() {
 	beego.Run()
 }
-
-
-
